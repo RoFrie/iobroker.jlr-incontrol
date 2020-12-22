@@ -1,7 +1,7 @@
 {
 	"common": {
 		"name": "jlr-incontrol",
-		"version": "0.0.2",
+		"version": "0.0.1",
 		"news": {
 			"0.0.1": {
 				"en": "initial release",
@@ -69,9 +69,7 @@
 	},
 	"native": {
 		"option1": true,
-		"option2": "42",
-		"email": "",
-		"password": ""
+		"option2": "42"
 	},
 	"objects": [],
 	"instanceObjects": []
