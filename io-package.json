@@ -1,0 +1,76 @@
+{
+	"common": {
+		"name": "jlr-incontrol",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Jaguar LandRover InControl",
+		"titleLang": {
+			"en": "Jaguar LandRover InControl",
+			"de": "Jaguar LandRover InControl",
+			"ru": "Ягуар Лэнд Ровер InControl",
+			"pt": "Jaguar LandRover InControl",
+			"nl": "Jaguar LandRover InControl",
+			"fr": "Jaguar LandRover InControl",
+			"it": "Jaguar LandRover InControl",
+			"es": "Jaguar LandRover InControl",
+			"pl": "Jaguar LandRover InControl",
+			"zh-cn": "捷豹路虎InControl"
+		},
+		"desc": {
+			"en": "Manage your Jaguar LandRover InControl",
+			"de": "Verwalten Sie Ihren Jaguar LandRover InControl",
+			"ru": "Управляйте своим Jaguar LandRover InControl",
+			"pt": "Gerencie seu Jaguar LandRover InControl",
+			"nl": "Beheer uw Jaguar LandRover InControl",
+			"fr": "Gérez votre Jaguar LandRover InControl",
+			"it": "Gestisci la tua Jaguar LandRover InControl",
+			"es": "Gestiona tu Jaguar LandRover InControl",
+			"pl": "Zarządzaj swoim Jaguarem LandRover InControl",
+			"zh-cn": "管理您的Jaguar LandRover InControl"
+		},
+		"authors": [
+			"RoFrie <rolf@gmx.eu>"
+		],
+		"keywords": [
+			"Jaguar LandRover InControl manage maintain"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "jlr-incontrol.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/RoFrie/ioBroker.jlr-incontrol/master/admin/jlr-incontrol.png",
+		"readme": "https://github.com/RoFrie/ioBroker.jlr-incontrol/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "utility",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
